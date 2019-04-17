@@ -89,6 +89,7 @@ Guide to Novice to Advance Java
 # Design Patterns 
 
 # AOP
+- Basic : https://www.eclipse.org/aspectj/doc/next/faq.html
 - Proxy 
 - Dependency Injection 
 - IOC
