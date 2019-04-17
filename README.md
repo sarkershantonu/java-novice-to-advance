@@ -93,6 +93,7 @@ Guide to Novice to Advance Java
 - Proxy 
 - Dependency Injection 
 - IOC
+- Performance Impact : https://web.archive.org/web/20150520175004/https://docs.codehaus.org/display/AW/AOP+Benchmark
 
 # JNI
 - Native C/C++
