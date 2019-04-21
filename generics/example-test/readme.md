@@ -4,7 +4,7 @@ Assume that you have a calculator. You need to create single test method with si
 
 # Test App
 - A calulator class with ADD (or sub or mul or div). 
-- Add can perform addition on same type Integer, double, float, string, 
+- Add can perform addition on same type Integer, double, float
 - Method returns data type of input parameter. 
 
 # Test Case 
