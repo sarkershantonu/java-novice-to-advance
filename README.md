@@ -11,10 +11,11 @@ Guide to Novice to Advance Java
 - what is Wildcat"?" 
 - Why/When we use Wildcat or Generics type
 - Example : 
+       
+       public <T extends InterfaceA > List<? extends Comparable<? extends T>> shortThis(List<? extends Comparable<? extends T>> items){
+       .... }
 - https://shantonusarker.blogspot.com/2016/03/java-generics-simplified.html
 - https://github.com/RichardWarburton/generics-examples
-- public <T extends InterfaceA > List<? extends Comparable<? extends T>> shortThis(List<? extends Comparable<? extends T>> items){
-.... }
 # Multi-threading and synchronization
 
 # Logging 
