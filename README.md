@@ -125,5 +125,29 @@ Guide to Novice to Advance Java
 # Unit Testing : 
 - https://github.com/sarkershantonu/Unit-Testing-Examples/tree/master/course
 
+# Manage Object Lifecycle
+- NO/Implicit Constructor
+- Constructors without Arguments
+- Constructors with Arguments
+- Initialization Blocks
+- Construction guarantee
+- Visibility
+- Garbage collection
+- Finalizers
+- Static initialization
+- Pattern : Singleton
+- Pattern : Utility/Helper Class
+- Pattern : Factory
+- Pattern : Dependency Injection
+- Pattern : Builder
+
+# Manage data/model/entity classes
+- hashCode
+- equals 
+- toString
+- clone, deep clone, shallow clone
+- equals & == operator
+- IDE code generators. 
+
 # JVM Tuning
 - https://github.com/sarkershantonu/jvm-tuning
