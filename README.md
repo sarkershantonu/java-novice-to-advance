@@ -149,5 +149,13 @@ Guide to Novice to Advance Java
 - equals & == operator
 - IDE code generators. 
 
+# Design your Classes & Objects
+
+# Design Enums 
+
+# Method Writing best practices 
+
+# Exceptions efficiently 
+
 # JVM Tuning
 - https://github.com/sarkershantonu/jvm-tuning
