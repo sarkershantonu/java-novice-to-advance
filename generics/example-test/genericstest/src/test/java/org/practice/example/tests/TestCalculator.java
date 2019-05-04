@@ -3,10 +3,12 @@ package org.practice.example.tests;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import org.practice.example.app.Calculator;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+
+import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
 public class TestCalculator {
@@ -32,5 +34,17 @@ public class TestCalculator {
     @Test
     public void testAddition(){
 
+        Calculator calculator = new Calculator();
+        assertEquals(getObject(result), calculator.add(getObject(first),getObject(second)));
+
+    }
+
+    private <T extends Number> T getObject(Object ob){
+        try {
+            return  (T) ob;
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }
     }
 }
