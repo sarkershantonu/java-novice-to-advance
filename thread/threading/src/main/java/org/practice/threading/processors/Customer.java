@@ -18,7 +18,7 @@ public class Customer implements Runnable {
     public Customer(String name, Communication chat) {
         this.name = name;
         this.chat = chat;
-        localThread = new Thread(this, String.valueOf(this.name));
+        localThread = new Thread(this, this.name);
         localThread.start();
     }
 

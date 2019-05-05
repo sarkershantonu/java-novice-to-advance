@@ -14,7 +14,7 @@ public class CustomerSupport implements Runnable {
     public CustomerSupport(String name, Communication chat) {
         this.name = name;
         this.chat = chat;
-        localThread = new Thread(this, String.valueOf(name));
+        localThread = new Thread(this, this.name);
         localThread.start();
     }
     public void run() {
