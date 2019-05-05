@@ -1,12 +1,12 @@
-package org.practice;
+package org.practice.threading;
 
 public class Customer implements Runnable {
-    private int id = 0;
+    private String name ="";
     private Communication chat;
     private Thread localThread;
 
-    public void setId(int id) {
-        this.id = id;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Communication getChat() {
@@ -15,10 +15,10 @@ public class Customer implements Runnable {
 
 
 
-    public Customer(int id, Communication chat) {
-        this.id = id;
+    public Customer(String name, Communication chat) {
+        this.name = name;
         this.chat = chat;
-        localThread = new Thread(this, String.valueOf(id));
+        localThread = new Thread(this, String.valueOf(this.name));
         localThread.start();
     }
 
@@ -27,7 +27,7 @@ public class Customer implements Runnable {
     }
     private String[] ques={"Hello","Good Morning","Can I get some help? "};
     private void doWork(){
-        System.out.println("Customer:"+id+" started");
+        System.out.println("Customer:"+ name +" started");
         try {
             for(String s:ques)
                 chat.ask(s);

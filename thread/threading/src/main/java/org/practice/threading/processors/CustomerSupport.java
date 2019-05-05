@@ -1,4 +1,4 @@
-package org.practice;
+package org.practice.threading;
 
 public class CustomerService implements Runnable {
     private String name = "";
