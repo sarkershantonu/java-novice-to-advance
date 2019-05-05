@@ -13,30 +13,18 @@ public class SemaphoreThread extends Thread {
 
     @Override
     public void run() {
-        boolean isAccuire = true;
         try {
-            if (semaphore.availablePermits() > 0) {
                 System.out.println(name + " is locking ");
                 System.out.println("Available permits before accure : " + semaphore.availablePermits());
                 semaphore.acquireUninterruptibly();
-                isAccuire = true;
                 work();
-
-            } else {
-                System.out.println("cant work .. :(  for : " + this.name);
-                isAccuire = false;
-                wait();
-            }
-
         } catch (InterruptedException e) {
+            System.out.println("cant work .. :(  for : " + this.name);
             e.printStackTrace();
         } finally {
-            if (isAccuire) {
-                System.out.println(name + " is releasing ");
-                semaphore.release();
-                System.out.println("Available permits after release : " + semaphore.availablePermits());
-                notifyAll();
-            }
+            System.out.println(name + " is releasing ");
+            semaphore.release();
+            System.out.println("Available permits after release : " + semaphore.availablePermits());
 
         }
     }
