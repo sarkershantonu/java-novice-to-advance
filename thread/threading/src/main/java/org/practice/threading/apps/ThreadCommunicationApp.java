@@ -1,4 +1,4 @@
-package org.practice.threading;
+package org.practice.threading.apps;
 
 import org.practice.threading.processors.Customer;
 import org.practice.threading.processors.CustomerSupport;

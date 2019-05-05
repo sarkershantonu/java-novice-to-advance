@@ -1,4 +1,6 @@
-package org.practice.threading;
+package org.practice.threading.processors;
+
+import org.practice.threading.services.Communication;
 
 public class Customer implements Runnable {
     private String name ="";
@@ -12,8 +14,6 @@ public class Customer implements Runnable {
     public Communication getChat() {
         return chat;
     }
-
-
 
     public Customer(String name, Communication chat) {
         this.name = name;

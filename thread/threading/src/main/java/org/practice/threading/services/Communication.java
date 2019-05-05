@@ -1,4 +1,4 @@
-package org.practice.threading;
+package org.practice.threading.services;
 
 public class Communication {
     private boolean isAsked = false;

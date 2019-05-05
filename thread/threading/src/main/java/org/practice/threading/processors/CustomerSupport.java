@@ -1,6 +1,8 @@
-package org.practice.threading;
+package org.practice.threading.processors;
 
-public class CustomerService implements Runnable {
+import org.practice.threading.services.Communication;
+
+public class CustomerSupport implements Runnable {
     private String name = "";
     private Communication chat;
     private Thread localThread;
@@ -9,7 +11,7 @@ public class CustomerService implements Runnable {
         return chat;
     }
 
-    public CustomerService(String name, Communication chat) {
+    public CustomerSupport(String name, Communication chat) {
         this.name = name;
         this.chat = chat;
         localThread = new Thread(this, String.valueOf(name));
@@ -18,9 +20,9 @@ public class CustomerService implements Runnable {
     public void run() {
         doWork();
     }
-    private String[] replys={"hi","how are you?","yes , I am ready"};
+    private String[] replys={"hi, how may I help you?","Thank you, Same to you","yes , I am ready"};
     private void doWork(){
-        System.out.println("CustomerService:"+ name +" started");
+        System.out.println("CustomerSupport:"+ name +" started");
         try {
             for(String s:replys)
                 chat.reply(s);
