@@ -2,22 +2,35 @@
 
 Guide to Novice to Advance Java
 
-# Design your Classes & Objects
+# Know & Design app Classes/Objects/Enums/Interfaces
 - override own equals and hashCode for own data/model classes
 - override toString for good output
 - Clone vs Deep clone 
 - Define Interface & abstract class principles (why it should be a class/abstract/interface)
 - Try to declear services/functionality with interfaces 
 - Enum may contain constractors for multi purpose usages. 
+- enum can have useful function to get info from member value
 - Immutable object/class design
+- Interface with default (java 8) 
+- Marker interfaces
+- Functional interfaces, default and static methods
+- Abstract class vs Interface
+- Final Class
+- Anonymous classes
+- Design Inheritance tightly coupled (abstract) or loosely coupled (interface)
+- Data aggregation vs Composition (is or has a relationship) 
 
-
-# Design Enums 
 
 # Method Writing best practices 
 - Immutable string/parameters (final in parameter)
 - Avoid premptive type , use Java Class (Integer instead of int)
-
+- use proper annotation 
+- Avoid comments as much as you can, method names should be sef explanatory 
+- Design type safe but generic method for multi purpose use. 
+- try lambda for private methods(if accepted)
+- Avoid system exception throwing , try business/custom exceptions based on design
+- Anonymous method
+- Final method
 
 # Some Naming Convensions (detail in clean code boook) 
 - maven group id(company Name)  & artifact id (project name) are small letters with dot 
@@ -85,6 +98,9 @@ Guide to Novice to Advance Java
 - post processor
 - Custom Annotation
 - Running Annotation Processors during compilation
+- JDK/JVM annotations
+- Repeatable annotation
+- configuration over convention
 - 
 
 # AOP
