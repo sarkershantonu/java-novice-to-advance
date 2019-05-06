@@ -231,9 +231,15 @@ Guide to Novice to Advance Java
 - Jsoup parsing 
 - RestAssured client
 
-# Listeners
-
 # Event Driven Programming
+- What is event driven programming? why we need?
+- Event source
+- Event Object
+- Event Listner
+- Event Management 
+- Event priority 
+- Java Listeners
+
 
 # Java Caching
 - What is Caching?
