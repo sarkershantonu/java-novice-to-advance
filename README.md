@@ -306,7 +306,7 @@ Guide to Novice to Advance Java
 - Annotation Processing
 - Syntax Tree (AST) api
 - 
-# Scripting on Running JVM
+# Scripting on JVM
 - How JVM can execute scripts on JVM
 - Example : Jmeter Implementation 
 - JavaScript on JVM
