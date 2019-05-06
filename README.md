@@ -2,6 +2,12 @@
 
 Guide to Novice to Advance Java
 
+# Design your Classes & Objects
+
+# Design Enums 
+
+# Method Writing best practices 
+
 # Generics
 - What is Generics? 
 - Subtype/SuperType
@@ -16,27 +22,14 @@ Guide to Novice to Advance Java
        .... }
 - https://shantonusarker.blogspot.com/2016/03/java-generics-simplified.html
 - https://github.com/RichardWarburton/generics-examples
-# Multi-threading and synchronization
 
-# Logging 
-- What is logger?
-- Java logging support?
-- Different type of logging & configurations
-- static logger & best pactices. 
-- Logging configurations
-- Different logging examples : https://github.com/sarkershantonu/Java-Logging
-
-
-# NIO
-
-# JDBC
 
 # Reflection & Best Practices 
 - What is Reflection API? 
 - Reflection with Generics 
 - Reflection for annotation processing. 
 
-# Threading  & Best Practices 
+# ulti-threading  & Best Practices 
 - What is java thread ?
 - Difference between Thread & Process
 - Runnable 
@@ -74,6 +67,19 @@ Guide to Novice to Advance Java
 - Dependency Injection 
 - IOC
 - Performance Impact : https://web.archive.org/web/20150520175004/https://docs.codehaus.org/display/AW/AOP+Benchmark
+
+# Logging 
+- What is logger?
+- Java logging support?
+- Different type of logging & configurations
+- static logger & best pactices. 
+- Logging configurations
+- Different logging examples : https://github.com/sarkershantonu/Java-Logging
+
+
+# NIO
+
+# JDBC
 
 # Lambda expressions
 - Lambda syntax
@@ -147,11 +153,8 @@ Guide to Novice to Advance Java
 - Serialization with Remote Method Invocation (RMI)
 - XML Serialization (JAXB)
 - JSON-P Serialization
-- 
-
 
 # Design Patterns 
-
 
 # JNI
 - Native C/C++
@@ -198,11 +201,7 @@ Guide to Novice to Advance Java
 - equals & == operator
 - IDE code generators. 
 
-# Design your Classes & Objects
 
-# Design Enums 
-
-# Method Writing best practices 
 
 # Exceptions efficiently 
 - What are Checked and unchecked exceptions?
