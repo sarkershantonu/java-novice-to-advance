@@ -159,3 +159,10 @@ Guide to Novice to Advance Java
 
 # JVM Tuning
 - https://github.com/sarkershantonu/jvm-tuning
+
+# Java Agent 
+- What is Java Agent 
+- Attaching agent with CLI parameter
+- Monitoring agent
+- Data transfe through agent
+- Protocol integration with agents
