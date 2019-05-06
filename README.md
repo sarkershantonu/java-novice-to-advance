@@ -19,6 +19,13 @@ Guide to Novice to Advance Java
 # Multi-threading and synchronization
 
 # Logging 
+- What is logger?
+- Java logging support?
+- Different type of logging & configurations
+- static logger & best pactices. 
+- Logging configurations
+- Different logging examples : https://github.com/sarkershantonu/Java-Logging
+
 
 # NIO
 
