@@ -120,8 +120,21 @@ Guide to Novice to Advance Java
 
 
 # NIO
+- What is next generation IO
+- File/folder/path monitoring
+- Basic NIO operations & exceptions
 
 # JDBC
+- What is JDBC? 
+- connect JDBC with different Database
+- Example with different DB: https://github.com/sarkershantonu/jdbc-examples
+- Jdbc connection class
+- Result Set & different utilities. 
+- JDBC parsing different type of data
+- JDBC blob
+- JDBC monitoring data change event from DB
+- Connection Pooling 
+- JDBC performance issues. 
 
 # Lambda expressions
 - Lambda syntax
@@ -197,24 +210,36 @@ Guide to Novice to Advance Java
 - JSON-P Serialization
 
 # Design Patterns 
+- https://github.com/sarkershantonu/blog-projects/tree/master/DesignPatternsJava
+- https://shantonusarker.blogspot.com/p/softwarearchitecture.html
 
 # JNI
 - Native C/C++
 - Native C#/Dotnet
 - Native python
 
-# JMS
-
-# Socket Programming 
+# Java Messaging : JMS & others
+- what is java messaging?
+- JMS client
+- RabbitMQ
+- activemq
+- Kafka
+- MQTT
 
 # HTTP Clients
+- Apache HTTP client
+- Jsoup parsing 
+- RestAssured client
 
 # Listeners
 
 # Event Driven Programming
 
-# In memory Caching
-
+# Java Caching
+- What is Caching?
+- In memory caching with thread safety
+- Guava chaching
+- Redis caching
 
 # Unit Testing : 
 - https://github.com/sarkershantonu/Unit-Testing-Examples/tree/master/course
