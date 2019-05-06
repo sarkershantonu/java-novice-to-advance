@@ -27,8 +27,20 @@ Guide to Novice to Advance Java
 # Reflection
 
 # Annotation 
+- What is annotation 
+- Annotation Scopes 
+- Pre processor
+- post processor
 - Custom Annotation
-- Pre processor, post processor. 
+- Running Annotation Processors during compilation
+- 
+
+# AOP
+- Basic : https://www.eclipse.org/aspectj/doc/next/faq.html
+- Proxy 
+- Dependency Injection 
+- IOC
+- Performance Impact : https://web.archive.org/web/20150520175004/https://docs.codehaus.org/display/AW/AOP+Benchmark
 
 # Lambda expressions
 - Lambda syntax
@@ -100,12 +112,6 @@ Guide to Novice to Advance Java
 
 # Design Patterns 
 
-# AOP
-- Basic : https://www.eclipse.org/aspectj/doc/next/faq.html
-- Proxy 
-- Dependency Injection 
-- IOC
-- Performance Impact : https://web.archive.org/web/20150520175004/https://docs.codehaus.org/display/AW/AOP+Benchmark
 
 # JNI
 - Native C/C++
@@ -166,3 +172,21 @@ Guide to Novice to Advance Java
 - Monitoring agent
 - Data transfe through agent
 - Protocol integration with agents
+
+# Java Compiler API 
+- What is compiler API? 
+- DiagnosticCollector 
+- StandardJavaFileManager
+- Element Scanning
+- Annotation Processing
+- Syntax Tree (AST) api
+- 
+# Scripting on Running JVM
+- How JVM can execute scripts on JVM
+- Example : Jmeter Implementation 
+- JavaScript on JVM
+- Beanshell on JVM
+- Groovy on JVM
+- Ruby on JVM (jRuby)
+- Python on JVM (jYthon)
+- JSR 223
