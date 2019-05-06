@@ -43,6 +43,14 @@ Guide to Novice to Advance Java
 - Monitoring 
 - Dead Lock 
 - Out Of memory exceptions 
+- Thread Group
+- ThreadLocal
+- Thread Safe collections
+- Thread Pool
+- Futures
+- Thread Schedulers
+- Atomic Operations
+- 
 
 # Annotation 
 - What is annotation 
