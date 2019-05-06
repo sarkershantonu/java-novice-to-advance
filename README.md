@@ -181,6 +181,11 @@ Guide to Novice to Advance Java
 
 # Exceptions efficiently 
 
+# JVM Monitoring tools 
+- Java Mission Control
+- JVisualVM
+
+
 # JVM Tuning
 - https://github.com/sarkershantonu/jvm-tuning
 
