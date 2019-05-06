@@ -24,7 +24,22 @@ Guide to Novice to Advance Java
 
 # JDBC
 
-# Reflection
+# Reflection & Best Practices 
+
+# Threading  & Best Practices 
+- What is java thread ?
+- Difference between Thread & Process
+- Runnable 
+- Thread Extention 
+- Executor service
+- Semaphore
+- Inter thread communication
+- Synchronization (block, method, object)
+- Wait/notify/notifyAll
+- Lock 
+- Monitoring 
+- Dead Lock 
+- Out Of memory exceptions 
 
 # Annotation 
 - What is annotation 
@@ -127,6 +142,9 @@ Guide to Novice to Advance Java
 # Listeners
 
 # Event Driven Programming
+
+# In memory Caching
+
 
 # Unit Testing : 
 - https://github.com/sarkershantonu/Unit-Testing-Examples/tree/master/course
