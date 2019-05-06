@@ -3,10 +3,36 @@
 Guide to Novice to Advance Java
 
 # Design your Classes & Objects
+- override own equals and hashCode for own data/model classes
+- override toString for good output
+- Clone vs Deep clone 
+- Define Interface & abstract class principles (why it should be a class/abstract/interface)
+- Try to declear services/functionality with interfaces 
+- Enum may contain constractors for multi purpose usages. 
+- Immutable object/class design
+
 
 # Design Enums 
 
 # Method Writing best practices 
+- Immutable string/parameters (final in parameter)
+- Avoid premptive type , use Java Class (Integer instead of int)
+
+
+# Some Naming Convensions (detail in clean code boook) 
+- maven group id(company Name)  & artifact id (project name) are small letters with dot 
+- package names are small letters with dot  
+- class, enum, interface or annotation names are PascalCase
+- mthod, fields, variables are cammel case (some time method name is underscored like python)
+- Static or Final fields are all CAPITAL. 
+- enum values are all CAPITAL
+- Generic Types are usually single capital letter. 
+
+# Null Pointer best practices 
+- Use Java 8 optional 
+- compare with null==referece item (null before) 
+- Compare with value==referece item (value before referece item)
+- 
 
 # Generics
 - What is Generics? 
@@ -29,7 +55,7 @@ Guide to Novice to Advance Java
 - Reflection with Generics 
 - Reflection for annotation processing. 
 
-# ulti-threading  & Best Practices 
+# Multi-threading  & Best Practices 
 - What is java thread ?
 - Difference between Thread & Process
 - Runnable 
