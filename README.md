@@ -25,6 +25,9 @@ Guide to Novice to Advance Java
 # JDBC
 
 # Reflection & Best Practices 
+- What is Reflection API? 
+- Reflection with Generics 
+- Reflection for annotation processing. 
 
 # Threading  & Best Practices 
 - What is java thread ?
@@ -124,6 +127,13 @@ Guide to Novice to Advance Java
 - Asynchronous APIs in Java
 
 # Serialization
+- What is Serialization & interface
+- Externalizable interface to externalize Serialization methods. 
+- Serialization with Remote Method Invocation (RMI)
+- XML Serialization (JAXB)
+- JSON-P Serialization
+- 
+
 
 # Design Patterns 
 
