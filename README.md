@@ -274,14 +274,11 @@ A Guide to Novice to Advance as Java Developer.
 - equals & == operator
 - IDE code generators. 
 
-
-
 # Exceptions efficiently 
 - What are Checked and unchecked exceptions?
 - How excecption works? 
 - How to design custom/domain exception
 - simple try vs try with resources 
-- 
 
 # JVM Monitoring tools 
 - Java Mission Control
