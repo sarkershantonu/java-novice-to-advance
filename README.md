@@ -1,6 +1,6 @@
 # java-novice-to-advance
 
-Guide to Novice to Advance Java
+A Guide to Novice to Advance as Java Developer. 
 
 # Know & Design app Classes/Objects/Enums/Interfaces
 - override own equals and hashCode for own data/model classes
