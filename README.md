@@ -106,7 +106,7 @@ A Guide to Novice to Advance as Java Developer.
 # AOP
 - Basic : https://www.eclipse.org/aspectj/doc/next/faq.html
 - Proxy 
-- Dependency Injection 
+- Dependency Injection : square dagger , Guice (y google), CDI (java ee6), Pico Container 
 - IOC
 - Performance Impact : https://web.archive.org/web/20150520175004/https://docs.codehaus.org/display/AW/AOP+Benchmark
 
