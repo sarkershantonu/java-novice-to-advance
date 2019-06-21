@@ -311,7 +311,19 @@ A Guide to Novice to Advance as Java Developer.
 - Element Scanning
 - Annotation Processing
 - Syntax Tree (AST) api
+
+# Security 
+- What it JKS
+- What is JCEKS
+- Keysore setup
+- setting parameter
+- Encrypting /Decrypting 
+- Cypher Object
+- Best Practices
+- Key distribution using keystore 
+- Externalization of parameters
 - 
+
 # Scripting on JVM
 - How JVM can execute scripts on JVM
 - Example : Jmeter Implementation 
