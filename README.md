@@ -229,7 +229,9 @@ A Guide to Novice to Advance as Java Developer.
 
 # Java Messaging : JMS & others
 - what is java messaging?
-- JMS client
+- JMS client & initiation 
+- JMS processing
+- Event Driven Example with JMS
 - RabbitMQ
 - activemq
 - Kafka
