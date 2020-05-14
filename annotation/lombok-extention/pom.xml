@@ -27,5 +27,11 @@
             <artifactId>lombok</artifactId>
             <version>1.18.12</version>
         </dependency>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <scope>system</scope>
+            <systemPath>${env.JDK_HOME}/lib/tools.jar</systemPath>
+        </dependency>
     </dependencies>
 </project>
