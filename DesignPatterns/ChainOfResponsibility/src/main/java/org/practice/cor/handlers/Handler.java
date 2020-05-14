@@ -7,7 +7,7 @@ import org.practice.cor.tasks.Task;
  * @author shantonu
  *
  */
-public interface IMyHadler {
-	void setMyNextHandler(MyHandler successor);
+public interface Handler {
+	void setMyNextHandler(AbstractHandler successor);
 	void doThis(Task task);
 }

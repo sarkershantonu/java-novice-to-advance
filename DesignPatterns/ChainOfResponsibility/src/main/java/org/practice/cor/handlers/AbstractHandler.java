@@ -2,14 +2,14 @@ package org.practice.cor.handlers;
 
 import org.practice.cor.tasks.Task;
 
-public abstract class MyHandler {
+public abstract class AbstractHandler {
 
-	protected MyHandler myNextHandler;
+	protected AbstractHandler myNextHandler;
 	/***
 	 * to pass the request to successor, this will be used for making chain
 	 * @param successor
 	 */
-	public void setMyNextHandler(MyHandler successor)
+	public void setMyNextHandler(AbstractHandler successor)
 	{
 		myNextHandler = successor;
 	}

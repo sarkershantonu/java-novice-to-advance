@@ -6,10 +6,10 @@ import org.practice.cor.tasks.Task;
 public class Application {
 
 	public static void main(String[] args) {		
-		MyHandler handler1 = new RealHandlerOne();
-		MyHandler handler2 = new RealHandlerTwo();
-		MyHandler handler3 = new RealHandlerThree();
-		MyHandler handler4 = new RealHandlerFour();
+		AbstractHandler handler1 = new RealHandlerOne();
+		AbstractHandler handler2 = new RealHandlerTwo();
+		AbstractHandler handler3 = new RealHandlerThree();
+		AbstractHandler handler4 = new RealHandlerFour();
 		
 		//Making chain of commands
 		handler1.setMyNextHandler(handler2);

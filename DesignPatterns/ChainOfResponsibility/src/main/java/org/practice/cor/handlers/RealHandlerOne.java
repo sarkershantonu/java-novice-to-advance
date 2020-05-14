@@ -2,7 +2,7 @@ package org.practice.cor.handlers;
 
 import org.practice.cor.tasks.Task;
 
-public class RealHandlerOne extends MyHandler {
+public class RealHandlerOne extends AbstractHandler {
 
 	public void doThis(Task task){
 		if(task.getValue()<0)
