@@ -1,6 +1,6 @@
-package org.practice.observer.products;
+package org.practice.myobserver.observable;
 
-import org.practice.observer.services.MyObserver;
+import org.practice.myobserver.observer.MyObserver;
 
 import java.util.ArrayList;
 import java.util.List;

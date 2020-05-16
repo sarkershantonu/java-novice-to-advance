@@ -1,9 +1,9 @@
-package org.practice.observer;
+package org.practice.myobserver;
 
 
-import org.practice.observer.products.NewsAgency;
-import org.practice.observer.services.EmailService;
-import org.practice.observer.services.SMSService;
+import org.practice.myobserver.observable.NewsAgency;
+import org.practice.myobserver.observer.EmailService;
+import org.practice.myobserver.observer.SMSService;
 
 public class Program {
 

@@ -1,10 +1,8 @@
-package org.practice.observer.products;
+package org.practice.myobserver.observable;
 
-import org.practice.observer.services.MyObserver;
+import org.practice.myobserver.observer.MyObserver;
 
 import java.util.ArrayList;
-import java.util.Observable;
-import java.util.Observer;
 
 public class NewsAgency extends AbstractObservable{
 	private ArrayList<String> news = new ArrayList<String>();

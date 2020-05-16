@@ -1,4 +1,4 @@
-package org.practice.observer.services;
+package org.practice.myobserver.observer;
 
 public interface MyObserver {
 	void update();

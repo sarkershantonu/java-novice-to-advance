@@ -1,4 +1,4 @@
-package org.practice.observer.services;
+package org.practice.myobserver.observer;
 
 /***
  * this can be user in alternative to MyObserver interface

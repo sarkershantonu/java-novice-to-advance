@@ -1,4 +1,4 @@
-package org.practice.jdkobserver.products;
+package org.practice.jdkobserver.observable;
 
 import java.util.ArrayList;
 import java.util.Observable;

@@ -1,6 +1,6 @@
-package org.practice.observer.products;
+package org.practice.myobserver.observable;
 
-import org.practice.observer.services.MyObserver;
+import org.practice.myobserver.observer.MyObserver;
 
 public interface MyObservable {
 	void notifyAllOvservers();

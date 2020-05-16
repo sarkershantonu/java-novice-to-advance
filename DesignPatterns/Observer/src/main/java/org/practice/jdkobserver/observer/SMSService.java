@@ -1,4 +1,4 @@
-package org.practice.jdkobserver.services;
+package org.practice.jdkobserver.observer;
 
 import java.util.Observable;
 import java.util.Observer;

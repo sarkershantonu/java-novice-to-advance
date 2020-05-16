@@ -1,9 +1,9 @@
 package org.practice.jdkobserver;
 
 
-import org.practice.jdkobserver.products.NewsAgency;
-import org.practice.jdkobserver.services.EmailService;
-import org.practice.jdkobserver.services.SMSService;
+import org.practice.jdkobserver.observable.NewsAgency;
+import org.practice.jdkobserver.observer.EmailService;
+import org.practice.jdkobserver.observer.SMSService;
 
 public class Program {
 

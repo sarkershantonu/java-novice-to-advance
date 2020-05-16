@@ -1,7 +1,4 @@
-package org.practice.observer.services;
-
-import java.util.Observable;
-import java.util.Observer;
+package org.practice.myobserver.observer;
 
 public class EmailService implements MyObserver{
 
