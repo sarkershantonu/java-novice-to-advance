@@ -30,6 +30,7 @@
         <module>Proxy</module>
         <module>State</module>
         <module>Strategy</module>
+        <module>TemplateMethod</module>
     </modules>
 
 
