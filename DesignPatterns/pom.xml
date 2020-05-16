@@ -26,6 +26,7 @@
         <module>Mediator</module>
         <module>Memento</module>
         <module>Observer</module>
+        <module>Prototype</module>
     </modules>
 
 
