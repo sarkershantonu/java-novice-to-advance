@@ -24,6 +24,7 @@
         <module>Interpreter</module>
         <module>Iterator</module>
         <module>Mediator</module>
+        <module>Memento</module>
     </modules>
 
 
