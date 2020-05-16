@@ -17,6 +17,7 @@
         <module>SingleTone</module>
         <module>Adapter</module>
         <module>Composite</module>
+        <module>Decorator</module>
     </modules>
 
 
