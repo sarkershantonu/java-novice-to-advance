@@ -23,6 +23,7 @@
         <module>Flyweight</module>
         <module>Interpreter</module>
         <module>Iterator</module>
+        <module>Mediator</module>
     </modules>
 
 
