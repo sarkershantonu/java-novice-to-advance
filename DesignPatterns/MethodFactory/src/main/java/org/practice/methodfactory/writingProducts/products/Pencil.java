@@ -1,4 +1,4 @@
-package org.practice.methodfactory.products;
+package org.practice.methodfactory.writingProducts.products;
 
 public class Pencil implements Product {
 	public void showMe(){

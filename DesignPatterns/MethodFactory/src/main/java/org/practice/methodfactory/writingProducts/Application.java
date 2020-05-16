@@ -1,9 +1,9 @@
-package org.practice.methodfactory;
+package org.practice.methodfactory.writingProducts;
 
-import org.practice.methodfactory.factory.Factory;
-import org.practice.methodfactory.factory.WritingProductFactory;
-import org.practice.methodfactory.products.Product;
-import org.practice.methodfactory.products.WritingProducts;
+import org.practice.methodfactory.writingProducts.factory.Factory;
+import org.practice.methodfactory.writingProducts.factory.WritingProductFactory;
+import org.practice.methodfactory.writingProducts.products.Product;
+import org.practice.methodfactory.writingProducts.products.WritingProducts;
 
 public class Application {
 	public static void main(String[] args) {

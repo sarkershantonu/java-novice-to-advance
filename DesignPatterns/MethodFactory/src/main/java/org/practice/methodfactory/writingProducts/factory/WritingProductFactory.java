@@ -1,6 +1,7 @@
-package org.practice.methodfactory.factory;
+package org.practice.methodfactory.writingProducts.factory;
 
 import org.practice.methodfactory.products.*;
+import org.practice.methodfactory.writingProducts.products.*;
 
 public class WritingProductFactory implements Factory {
 	WritingProducts productName;
