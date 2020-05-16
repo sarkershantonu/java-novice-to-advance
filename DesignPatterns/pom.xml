@@ -22,6 +22,7 @@
         <module>MethodFactory</module>
         <module>Flyweight</module>
         <module>Interpreter</module>
+        <module>Iterator</module>
     </modules>
 
 
