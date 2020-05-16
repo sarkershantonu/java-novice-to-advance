@@ -29,6 +29,7 @@
         <module>Prototype</module>
         <module>Proxy</module>
         <module>State</module>
+        <module>Strategy</module>
     </modules>
 
 
