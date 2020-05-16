@@ -21,6 +21,7 @@
         <module>Facade</module>
         <module>MethodFactory</module>
         <module>Flyweight</module>
+        <module>Interpreter</module>
     </modules>
 
 
