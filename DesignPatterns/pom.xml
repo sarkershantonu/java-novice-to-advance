@@ -19,6 +19,7 @@
         <module>Composite</module>
         <module>Decorator</module>
         <module>Facade</module>
+        <module>MethodFactory</module>
     </modules>
 
 
