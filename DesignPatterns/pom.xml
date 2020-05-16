@@ -28,6 +28,7 @@
         <module>Observer</module>
         <module>Prototype</module>
         <module>Proxy</module>
+        <module>State</module>
     </modules>
 
 
