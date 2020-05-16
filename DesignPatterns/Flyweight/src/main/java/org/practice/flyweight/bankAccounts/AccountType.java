@@ -1,4 +1,4 @@
-package org.practice.flyweight;
+package org.practice.flyweight.bankAccounts;
 
 public enum AccountType {
 Current,Savings,Salary,student,employee,premium,fc,rfcd;

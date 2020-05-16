@@ -1,4 +1,4 @@
-package org.practice.flyweight;
+package org.practice.flyweight.bankAccounts;
 
 public class Account {
 	private String name="Shantonu Blog Example ";

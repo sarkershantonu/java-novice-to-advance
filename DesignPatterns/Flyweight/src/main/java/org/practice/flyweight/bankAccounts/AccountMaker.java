@@ -1,4 +1,4 @@
-package org.practice.flyweight;
+package org.practice.flyweight.bankAccounts;
 
 import java.util.HashMap;
 
