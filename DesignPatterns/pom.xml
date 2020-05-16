@@ -16,6 +16,7 @@
         <module>Command</module>
         <module>SingleTone</module>
         <module>Adapter</module>
+        <module>Composite</module>
     </modules>
 
 
