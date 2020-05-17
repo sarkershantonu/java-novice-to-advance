@@ -5,7 +5,7 @@ import org.practice.myobserver.observable.NewsAgency;
 import org.practice.myobserver.observer.EmailService;
 import org.practice.myobserver.observer.SMSService;
 
-public class Program {
+public class Application {
 
 	public static void main(String[] args) {
 		System.out.println("Current News is : Bla Bla bla");

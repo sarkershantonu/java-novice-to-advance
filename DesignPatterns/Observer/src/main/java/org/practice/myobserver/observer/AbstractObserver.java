@@ -5,5 +5,8 @@ package org.practice.myobserver.observer;
  */
 public abstract class AbstractObserver {
 	public abstract void update();
-	public abstract void update(Object args);
+	public  void update(Object args){
+		String data = (String)args;
+		System.out.println("I have notified : "+data);
+	}
 }

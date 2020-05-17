@@ -11,14 +11,16 @@ public abstract class AbstractObservable implements MyObservable{
 
 
 	public void notifyAllOvservers(){
-		for(int i=0; i<observers.size();i++){
-			observers.get(i).update();
+
+		for(MyObserver observer : observers){
+			observer.update(" : New News ");
 		}
+
 	}
 	public void notifyAllOvservers(Object arg){
 	//Just another way to notify with arguments
-		for(int i=0; i<observers.size();i++){
-			observers.get(i).update(arg);
+		for(MyObserver observer : observers){
+			observer.update(arg);
 		}		
 	}
 	public void attachAObserver(MyObserver observer) {
