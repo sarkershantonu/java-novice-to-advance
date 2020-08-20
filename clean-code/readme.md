@@ -1,6 +1,7 @@
 # Main Book Links 
 1. clean code: https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
-
+2. Clean Coder: https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073
+3. 
 
 
 # Points from Clean code & clean coder book
