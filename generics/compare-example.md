@@ -1,6 +1,8 @@
 # Understanding Generics Problem 
 
 ### Without Generics 
+
+```
 public class CollectionUtilities {
     public static List<String> getOnlyNewItems(List<String> itemsFromFirstList, List<String> itemsFromSecondList) {
         List<String> result = new ArrayList<>();
