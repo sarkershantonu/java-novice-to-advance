@@ -21,9 +21,8 @@ public class CollectionUtilities {
 ### with Generics 
   
 ```
-public class CollectionUtilities {  
-  public static <T extends Comparable<T>> List<T> getNewItems(List<T> itemsFromFirstList, List<T> itemsFromSecondList) {
-        List<T> result = new ArrayList<>();
+  public static <T extends Comparable<T>> Collection<T> getNewItems(Collection<T> itemsFromFirstList, Collection<T> itemsFromSecondList) {
+        Collection<T> result = new ArrayList<>();
         for(T first : itemsFromSecondList){
             for(T second : itemsFromFirstList){
                 if(!first.equals(second)){
@@ -33,7 +32,6 @@ public class CollectionUtilities {
         }
         return result;
     }
-}
 ```
 
 ### Benifits : 
