@@ -4,7 +4,7 @@
 
 ```
 public class CollectionUtilities {
-    public static List<String> getOnlyNewItems(List<String> itemsFromFirstList, List<String> itemsFromSecondList) {
+    public static List<String> getNewItems(List<String> itemsFromFirstList, List<String> itemsFromSecondList) {
         List<String> result = new ArrayList<>();
         for(String first : itemsFromSecondList){
             for(String second : itemsFromFirstList){
